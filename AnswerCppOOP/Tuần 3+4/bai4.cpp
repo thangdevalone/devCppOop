@@ -8,7 +8,7 @@ int main(){
     NumDays numday3=numday1+numday2;
     NumDays numday4=numday2-numday1;
     NumDays numday5=--numday1;
-    NumDays numday6=++numday2;
+    NumDays numday6=numday2++;
     numday3.displayData();
     numday4.displayData();
     numday5.displayData();

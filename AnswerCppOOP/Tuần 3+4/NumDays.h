@@ -39,6 +39,14 @@ public:
         
         return timeWork+1;
     }
+    NumDays operator --(int){
+        
+        return timeWork-1;
+    }
+    NumDays operator ++(int){
+        
+        return timeWork+1;
+    }
     void displayData(){
         cout << getWork()<< " Ngay Cong" << endl;
     }
