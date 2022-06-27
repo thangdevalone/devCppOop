@@ -13,7 +13,7 @@ public:
         this->id = id;
         this->check = check;
     }
-    void print() {
+    virtual void print() {
         cout << "id: " << this->id << endl;
         cout << "check: " << this->check << endl;
         cout << "surname:" << this->getSurname() << endl;
